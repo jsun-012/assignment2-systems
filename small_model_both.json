@@ -1,0 +1,24 @@
+{
+  "avg_time_ms": 149.92707880001035,
+  "std_time_ms": 3.2351824723332054,
+  "min_time_ms": 147.49570599997242,
+  "max_time_ms": 158.03591200028677,
+  "hyperparams": {
+    "vocab_size": 10000,
+    "context_length": 512,
+    "d_model": 768,
+    "num_layers": 12,
+    "num_heads": 12,
+    "d_ff": 3072,
+    "rope_theta": 10000.0,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.01
+  },
+  "batch_size": 4,
+  "context_length": 512,
+  "num_warmup": 5,
+  "num_steps": 10,
+  "benchmark_type": "both",
+  "device": "cuda",
+  "model_params": 120945408
+}
